@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "DDDinner.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DDDinner.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DDDinner.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDDinner.Application.dll": {}
+        }
+      },
+      "DDDinner.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DDDinner.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDDinner.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DDDinner.Application/1.0.0": {
+      "type": "project",
+      "path": "../DDDinner.Application/DDDinner.Application.csproj",
+      "msbuildProject": "../DDDinner.Application/DDDinner.Application.csproj"
+    },
+    "DDDinner.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DDDinner.Domain/DDDinner.Domain.csproj",
+      "msbuildProject": "../DDDinner.Domain/DDDinner.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "DDDinner.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/hadyn/.nuget/packages/": {}
@@ -32,7 +69,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/hadyn/src/DDDinner/DDDinner.Application/DDDinner.Application.csproj": {
+              "projectPath": "/Users/hadyn/src/DDDinner/DDDinner.Application/DDDinner.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

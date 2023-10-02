@@ -26,6 +26,64 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/hadyn/src/DDDinner/DDDinner.Domain/DDDinner.Domain.csproj": {
+                "projectPath": "/Users/hadyn/src/DDDinner/DDDinner.Domain/DDDinner.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/nix/store/y9m04c28a2hnzjwnddl0vik6piajka76-dotnet-sdk-7.0.400/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hadyn/src/DDDinner/DDDinner.Domain/DDDinner.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hadyn/src/DDDinner/DDDinner.Domain/DDDinner.Domain.csproj",
+        "projectName": "DDDinner.Domain",
+        "projectPath": "/Users/hadyn/src/DDDinner/DDDinner.Domain/DDDinner.Domain.csproj",
+        "packagesPath": "/Users/hadyn/.nuget/packages/",
+        "outputPath": "/Users/hadyn/src/DDDinner/DDDinner.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hadyn/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/EducationPerfect/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
