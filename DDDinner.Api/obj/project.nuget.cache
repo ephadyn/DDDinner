@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "a20ae1AzjttLHDIzFCuTJn6QtO+HGa/YmqtrH7Idw9JLQfO105w3JLerfW3cQvbUvQB5QMrJyghkyP7Uv2ww8Q==",
+  "dgSpecHash": "ZrrW0KiaZ2NnvWSjG2qYFuWUfwpNkgFytCN/zTp2j0vxg8mvyjkh6tyMyQ538B4Yeq6kKopWz2SkemAlFdNRow==",
   "success": true,
   "projectFilePath": "/Users/hadyn/src/DDDinner/DDDinner.Api/DDDinner.Api.csproj",
   "expectedPackageFiles": [
     "/Users/hadyn/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+    "/Users/hadyn/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/Users/hadyn/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512"
   ],
   "logs": []

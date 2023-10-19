@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "w3zsriQmNKjvaA2WLMyMTm+SywLpw4x0BQ/Y2791PpADzNOD8VlMS02AwejhrjBWTWUKYKB6/s7qaBD/sr1R6w==",
+  "dgSpecHash": "WAsSZwK0FnB8KgIWOPVTtNZzeSW5Ht3b2rnuqsD8CvV3Mn/K6Z7xZ0u2SLU8n8DtYtqsSE8aqjpFpYFVS9PPSQ==",
   "success": true,
   "projectFilePath": "/Users/hadyn/src/DDDinner/DDDinner.Infrastructure/DDDinner.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/hadyn/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
